@@ -13,11 +13,7 @@
 .text-green {
     color: rgb(15, 169, 15) !important;
 }
-.img-japi{
-    width: 100%;
-}
 .card-superpuesta img {
-    height: 100vh;
     filter: brightness(60%);
 }
 .card-img-overlay {
@@ -27,6 +23,7 @@
     font-size: 2rem;
 }
 .cuentaatras{ 
+    margin-top: 15% ;
     display: flex !important;
     height: 50vh;
     justify-content: center;
