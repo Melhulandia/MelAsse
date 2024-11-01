@@ -22,6 +22,48 @@
 .card-titulo {
     font-size: 2rem;
 }
+
+/*HEADER-----------*/
+.navbar-collapse {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    box-shadow: 0px 6px 12px 0px #18B9EC;
+}
+.img-japi{
+    width: 100%;
+}
+.card-superpuesta img {
+    filter: brightness(60%);
+}
+.card-img-overlay {
+    width: 100%;
+    padding-top: 40% !important;
+    height: 10vh !important;
+}
+.textoConferencia {
+    font-size: 1.12rem;
+    padding-top: 1rem;
+    margin: 0 20px;
+    
+}
+#inicio .sixtyfour {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.d.flex .text-center .textoConferencia #countdown span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+div .div .smalltext {
+    font-size: 12px;
+    color: #6666662c;
+}
 .cuentaatras{ 
     margin-top: 15% ;
     display: flex !important;
