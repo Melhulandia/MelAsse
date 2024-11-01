@@ -1,0 +1,266 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+/*HEADER-----------*/
+.navbar-collapse {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    box-shadow: 0px 6px 12px 0px #18B9EC;
+}
+.text-green {
+    color: rgb(15, 169, 15) !important;
+}
+.img-japi{
+    width: 100%;
+}
+.card-superpuesta img {
+    height: 100vh;
+    filter: brightness(60%);
+}
+.card-img-overlay {
+    padding-top: 20% !important;
+}
+.card-titulo {
+    font-size: 2rem;
+}
+.cuentaatras{ 
+    display: flex !important;
+    height: 50vh;
+    justify-content: center;
+    font-family: "Sixtyfour Convergence", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(19, 20, 15, 0.027);
+}
+#cuentaatras h1{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#cuentaatras div {
+    text-align: center;
+    margin: 0 20px;
+}
+#cuentaatras span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+.smalltext {
+    font-size: 12px;
+    color: #6666662c;
+}
+/*SECTION "INFO"----INICIO*/
+.btn-success {
+    background: #0e970e !important;
+}
+.sectionContacto div {
+    font-size: 13px;
+    text-align: center;
+}
+.sectionContacto {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+#info {
+    margin: 30px;
+    font-size: large;
+}
+#vermasdiv {
+    display: none;
+}
+/*analisis de datos-------*/
+.text-center{
+    margin-top: 18%;
+}
+iframe {
+    box-shadow: -1px 8px 36px 1px rgba(54, 211, 151, 0.6);
+    -webkit-box-shadow: -1px 8px 36px 1px rgba(54, 211, 151, 0.6);
+    -moz-box-shadow: -1px 8px 36px 1px rgba(54, 211, 151, 0.6);
+    margin: 5px;
+    width: 900px;
+    height: 725px;
+}
+/*PAGE------EQUIPO*/
+.iconos-equipo{
+margin: 15px;
+}
+.sectionContacto {
+    margin-top: 5%;
+}
+.box__card {
+    height: 60%;
+    width: 95%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.card-text{
+    font-size: 15px;
+}
+.card:hover {
+    box-shadow: 6px 6px 40px 10px #18B9EC;
+}
+/*FORMULARIO--------- acordion de Consultas*/
+.pases-acc strong {
+    font-weight: bold;
+    color: #006400;
+}
+
+/*--------form--contactanos----------------*/
+.titulo-registro {
+    margin-left: 10px;
+}
+
+.titulo-contacto {
+    font-size: 14px;
+    /*20px!important;*/
+}
+
+/*.parrafo-form{
+    font-size: 13px;
+}*/
+#formulario {
+    background-image: url(../assets/img/fondo_form.png);
+}
+
+#section-form {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.formulario {
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 150px;
+}
+
+.texto-area {
+    font-size: 12px;
+    resize: none !important;
+}
+.formulario button {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    background-color: #7fc33b !important;
+    color: whitesmoke;
+}
+/*FOOTER-----------------------------*/
+#pie-de-pagina {
+    display: flex;
+    background-image: url(../assets/img/footer_img.png);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    padding-left: 10%;
+}
+#pie-de-pagina img{
+    width: 80px; 
+    margin-bottom: 15px; 
+    margin-top: 10px;
+}
+#pie-de-pagina a {
+    text-decoration: none;
+}
+.icon {
+    color: #28bd46;
+    font-size: 5rem;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+/*------------------------/*
+/*CELULAR*/
+@media screen and (max-width: 769px) {
+
+    /*INICIO-----------------*/
+    #inicio .img-inicio {
+        min-height: 450px !important;
+    }
+
+    .card-titulo {
+        text-align: center !important;
+        padding-top: 15%;
+        font-size: large !important;
+    }
+
+    .textoInicio {
+        font-size: small;
+    }
+
+    #info {
+        margin: 0;
+        padding-bottom: 5%;
+    }
+
+    .botones {
+        height: 70px;
+        margin-bottom: 40px;
+        font-size: small;
+    }
+
+    /*anallisis de datos*/
+    iframe {
+        height: 500px;
+    } 
+    /*equipo*/
+    .card-body{height:max-content!important;}
+    #equipo .box__card {
+        margin-left: 5px !important;
+        
+    }
+    /*Equipo--------------------------------*/
+    .iconos-equipo{
+        display: flex;
+    }
+    /*Footer*/
+    #pie-de-pagina{
+        padding-top: 15vh!important;
+    }
+    /*-----------------------------------*/
+}
+@media screen and (max-width:480px){
+#grafico{
+        max-width: max-content!important ;
+        height: 350px !important;
+    }
+#pie-de-pagina .cel{
+    margin-top: 25%!important;
+}
+}
+/*tablet*/
+@media screen and (max-width: 1024px) {
+
+    /*iNICIO---------------------*/
+    .img-inicio {
+        min-height: 80px !important;
+    }
+    #info {
+        font-size: 15px;
+    }
+
+    /*analisis de datos*/
+    iframe {
+        max-width: 100% !important;
+    }
+
+    /*Equipo--------------------------------*/
+    .box__card {
+        margin-left: 7rem !important;
+    }
+    .card-body{
+        height: 70vh;
+        }
+.card-text{
+    font-size: small;
+}
+    /*-----------------------------------*/
+/*footer*/
+#pie-de-pagina{height: 15vh; padding-top: 15vh;}
+}
