@@ -9,7 +9,7 @@
     <!--Fuente-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
     <!--kit de fontawesome-logo WAP-->
     <script src="https://kit.fontawesome.com/21634b49f8.js" crossorigin="anonymous"></script>
     <!--hoja de stylos propia-se linkea la pagina de estilos al html usando "link"-->
@@ -61,27 +61,30 @@
                         alt="japi">
                 </div>
             </div>
-            <div id="portada"> 
-        <h1>Volver al futuro</h1>
-    </div>
-    <div id="countdown">
-        <div>
-            <span id="days"></span>
-            <div class="smalltext">Días</div>
-        </div>
-        <div>
-            <span id="hours"></span>
-            <div class="smalltext">Horas</div>
-        </div>
-        <div>
-            <span id="minutes"></span>
-            <div class="smalltext">Minutos</div>
-        </div>
-        <div>
-            <span id="seconds"></span>
-            <div class="smalltext">Segundos</div>
-        </div>
-    </div>
+            <div class="d-flex">
+                <div class="w-100 sixtyfour text-danger card-img-overlay d-flex flex-column justify-content-center text-center ">
+                    <h2 >Volver al futuro</h2>
+                    <h2 class="textoConferencia d-flex flex row d-flex justify-content-center text-center">
+                        <div id="countdown">
+                            <div class="div">
+                                <span id="days"></span>
+                                <div class="smalltext">Días</div>
+                            </div>
+                            <div class="div">
+                                <span id="hours"></span>
+                                <div class="smalltext">Horas</div>
+                            </div>
+                            <div class="div">
+                                <span id="minutes"></span>
+                                <div class="smalltext">Minutos</div>
+                            </div>
+                            <div class="div">
+                                <span id="seconds"></span>
+                                <div class="smalltext">Segundos</div>
+                            </div>
+                        </div></h2>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -147,4 +150,22 @@
             <div class="smalltext">Segundos</div>
         </div>
     </div>
--->
+
+
+
+    /* Fuente alojada */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    /* Fuente incrustada */
+    @font-face {
+      font-family: 'MyCustomFont';
+      src: url('mycustomfont.ttf') format('truetype');
+    }
+    
+    h1 {
+      font-family: 'MyCustomFont', sans-serif;
+    }
